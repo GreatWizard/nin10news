@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel assets/*",
-    "build": "parcel build assets/* --public-url /nin10news/",
-    "predeploy": "yarn build",
+    "build": "parcel build assets/* --public-url ./",
+    "predeploy": "rm -rf dist && yarn build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {

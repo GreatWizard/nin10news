@@ -3,12 +3,12 @@ const {
   enc: { Utf8 },
 } = require("crypto-js");
 
-window.nin10news = {};
+nin10news = {};
 
-window.nin10news.decode = (text) => {
+nin10news.decode = (text) => {
   return AES.decrypt(text, "/").toString(Utf8);
 };
 
-window.nin10news.encode = (text) => {
+nin10news.encode = (text) => {
   return AES.encrypt(text, "/").toString();
 };
