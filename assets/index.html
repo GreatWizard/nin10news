@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Decode URL to keep your files │ Data │ Links safety and Securely and convert it into code on nin10news website"
+    />
+    <title>
+      Decode URL to keep your files │ Data │ Links safety and Securely and
+      convert it into code on nin10news website
+    </title>
+    <link rel="stylesheet" href="./styles/app.scss" />
+  </head>
+  <body>
+    <script src="./js/ui.js"></script>
+    <h1>nin10news</h1>
+    <h2>Decoder</h2>
+    <label for="decoder">Text to decode:</label>
+    <textarea
+      id="decoder"
+      cols="80"
+      rows="2"
+      onchange="onDecoderChange(this.value)"
+    ></textarea>
+    <label for="result-decoder">Result:</label>
+    <a
+      id="result-decoder"
+      href="#"
+      target="_blank"
+      rel="noreferrer noopener"
+    ></a>
+    <hr />
+    <h2>Encoder</h2>
+    <label for="encoder">Text to encode:</label>
+    <textarea
+      id="encoder"
+      cols="80"
+      rows="2"
+      onchange="onEncoderChange(this.value)"
+    ></textarea>
+    <label for="result-encoder">Result:</label>
+    <blockquote id="result-encoder"></blockquote>
+  </body>
+</html>
