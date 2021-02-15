@@ -558,4 +558,4 @@ var n=require("crypto-js/aes"),e=require("crypto-js"),r=e.enc.Utf8;window.nin10n
 },{"crypto-js/aes":"Xa8o","crypto-js":"BXaB"}],"DrAD":[function(require,module,exports) {
 require("./nin10news"),window.onDecoderChange=function(e){var n=document.getElementById("result-decoder"),d=window.nin10news.decode(e.trim());void 0!==d&&""!==d?(n.href=d,n.text=d,n.click()):(n.href="#",n.text="")},window.onEncoderChange=function(e){var n=document.getElementById("result-encoder"),d=window.nin10news.encode(e.trim());n.innerText=void 0!==d&&""!==d?d:""};
 },{"./nin10news":"WoDH"}]},{},["DrAD"], null)
-//# sourceMappingURL=http://greatwizard.github.io/nin10news/ui.db53bfb4.js.map
+//# sourceMappingURL=/nin10news/ui.db53bfb4.js.map
