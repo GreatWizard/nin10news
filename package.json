@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel assets/*",
     "build": "parcel build assets/* --public-url ./",
-    "predeploy": "rm -rf dist && yarn build",
+    "predeploy": "rm -rf dist && yarn build && echo 'nin10news.greatwizard.fr' > dist/CNAME",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
